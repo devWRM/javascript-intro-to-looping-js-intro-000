@@ -1,5 +1,6 @@
 function forLoop(array) {
+
   for (var i = 0; array <26; i++){
-    console.log(i);
+    array[i] = "This is [i].";
   }
 }
