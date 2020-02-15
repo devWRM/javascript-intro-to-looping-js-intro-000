@@ -1,7 +1,7 @@
   var array = [];
 function forLoop(array) {
 
-  for (let i = 0; i < 25; i++){
+  for (let i = 1; i < 26; i++){
     if (i === 1){
       array[i] = `I am ${i} strange loop.`;
     } else {
