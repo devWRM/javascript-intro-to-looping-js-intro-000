@@ -1,4 +1,4 @@
-  
+
 function forLoop(strangeArray) {
     var array = [];
   for (let i = 0; i < 25; i++){
