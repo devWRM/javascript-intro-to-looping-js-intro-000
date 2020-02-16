@@ -1,7 +1,8 @@
-
+    
 function forLoop(array) {
-    var array = [];
-  for (let i = 0; i < 25; i++){
+    
+  for (let i = 0; i < 25; i++) {
+
     if (i === 0){
       array[i] = `I am ${i+1} strange loop.`;
     } else {
@@ -11,3 +12,7 @@ function forLoop(array) {
   }
   return array;
 }
+
+var array = [];
+forLoop(array);
+
